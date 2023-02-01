@@ -1,7 +1,13 @@
 package org.seheon.movies;
 
+import com.mongodb.client.MongoDatabase;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.mongodb.config.EnableMongoAuditing;
+import org.springframework.data.mongodb.core.MongoTemplate;
 
 @SpringBootApplication
 public class MoviesApplication {
@@ -10,5 +16,7 @@ public class MoviesApplication {
         SpringApplication.run(MoviesApplication.class, args);
 
     }
+
+
 
 }
