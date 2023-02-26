@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b53933f-4bfb-40a4-820a-ba382ab1af44" name="Changes" comment="fix : setting">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1b53933f-4bfb-40a4-820a-ba382ab1af44" name="Changes" comment="feat : review service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/seheon/movies/MoviesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seheon/movies/MoviesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/seheon/movies/controller/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/seheon/movies/controller/HelloTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/seheo/OneDrive/바탕 화면/ㅅㅂ/movieist",
+    "last_opened_file_path": "C:/Users/seheo/IdeaProjects/my-app",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -121,17 +117,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.seheon.movies.controller.*" />
+          <option name="PATTERN" value="org.seheon.movies.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.seheon.movies.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.seheon.movies.controller.MovieControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.seheon.movies.domain" />
+      <option name="MAIN_CLASS_NAME" value="org.seheon.movies.domain.CustomerRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +183,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerRepositoryTest.save" />
         <item itemvalue="JUnit.MovieControllerTest.return_movie" />
         <item itemvalue="Application.MoviesApplication" />
         <item itemvalue="JUnit.MovieServiceTest.return_movies" />
@@ -216,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674801778578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat : review service">
+      <created>1675270115356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675270115356</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +238,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : first commit" />
     <MESSAGE value="fix : setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : setting" />
+    <MESSAGE value="feat : review service" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : review service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,7 +258,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/seheon/movies/domain/MovieRepository.java</url>
           <line>11</line>
           <properties class="org.seheon.movies.domain.MovieRepository" method="findMovieByImdbId">
-            <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
